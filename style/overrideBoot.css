@@ -1,0 +1,44 @@
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #191919;
+}
+
+/* Table Rows Higlighs */
+#showHorseTable tr.gold  {
+	background: green;
+    color: white;
+	text-decoration: none;	 
+	text-align: center;
+	font-size: 1.1em;
+	font-family: sans-serif;
+	font-weight: bold;
+	vertical-align: text-top;	
+}
+#showHorseTable tr.silver  {
+	background: #ffc53a; /* amber colour*/
+    color: black;
+	text-decoration: none;	 
+	text-align: center;
+	font-size: 1.1em;
+	font-family: sans-serif;
+	font-weight: bold;
+	vertical-align: text-top;	
+}
+#showHorseTable tr.bronze  {
+	background: red;
+    color: black;
+	text-decoration: none;	 
+	text-align: center;
+	font-size: 1.1em;
+	font-family: sans-serif;
+	font-weight: bold;
+	vertical-align: text-top;	
+}
+
+/*
+ padding: 1em 3em;
+  width: 20%;
+	  margin: 1% auto;
+	  display: block;
+*/
+
+
