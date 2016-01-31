@@ -7,10 +7,9 @@
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> 
 <link href="assets/datatables.min.css" rel="stylesheet" type="text/css">
-
 <link href="style/logo.css" rel="stylesheet" type='text/css'>
-<link href="style/overrideBoot.css" rel="stylesheet" type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link href="style/overrideBoot.css" rel="stylesheet" type='text/css'>
 
 <script type="text/javascript" src="assets/jquery-1.11.3-jquery.min.js"></script>
 
@@ -114,7 +113,7 @@ $(document).ready(function(){
 		while($row=$stmt->fetch(PDO::FETCH_ASSOC))
 		{
 			?>
-			<tr>			
+			<tr>				
 			
 			<td><?php echo $row['hor_id']; ?></td>
 			<td><?php echo $row['name']; ?></td>
